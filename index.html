@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaik Sattar – Mechanical & Piping Engineer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .project-card {
+      background: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+    .footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #3498db;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .profile-img {
+      width: 220px;
+      height: 320px;
+      border-radius: 8px; /* Slightly rounded corners, or set to 0 for sharp corners */
+      margin-top: 1rem;
+      border: 6px solid #2980b9;
+      box-shadow: 0 4px 16px rgba(44,62,80,0.15);
+      object-fit: cover;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <img 
+  src="img/SATTAR SHAIK.jpeg" 
+  alt="Shaik Sattar" 
+  class="profile-img" 
+/>
+    <h1>Shaik Sattar</h1>
+	
+    <p>Mechanical & Piping Engineer | 12+ Years Experience</p>
+    <p>📞 KSA: +966 57113254 | IND: +91 7893738519 | 📧 abdulsattarshaik519@gmail.com</p>
+    <a href="doc/Shaik Sattar.pdf" download><button>📄 Download CV</button></a>
+  </header>
+
+  <nav>
+    <a href="#summary">Summary</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+  </nav>
+
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <p>Innovative and self-motivated Mechanical Engineer with extensive experience in piping, structure, shutdowns, and commissioning across oil & gas, petrochemical, and thermal power sectors. Skilled in international codes, Aramco standards, and project execution.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Core Skills</h2>
+    <button onclick="toggleSection('skillsList')">Toggle Skills</button>
+    <ul id="skillsList">
+      <li>Piping & Structural Fabrication</li>
+      <li>Shutdown & Turnaround Projects</li>
+      <li>Hydrotest, Bolt Torque, Welding Inspection</li>
+      <li>SpoolGen, AutoCAD, Primavera Basics</li>
+      <li>Material Management & Safety Compliance</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Project Experience</h2>
+    <div class="project-card"><strong>NBTC Group – Jubail, KSA (2024–Present)</strong><br>Piping Engineer – Marjan Increment Program</div>
+    <div class="project-card"><strong>Gulf Asia Contracting – Jubail, KSA</strong><br>Piping Engineer – Saipem, SADARA, SAOMPP</div>
+    <div class="project-card"><strong>Power Mech Projects – KSA & India</strong><br>Senior Mechanical Engineer – Hyundai, BHEL, Reliance, SEPCO1, Doosan</div>
+    <div class="project-card"><strong>Abhi Constructions – India</strong><br>Project Engineer – NTPC Simhadri Power Plant</div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>BE Mechanical Engineering – Narasaraopeta Engineering College, AP, India (2008)</li>
+      <li>Intermediate (MPC) – Vignan Co-operative Junior College, AP, India (2004)</li>
+    </ul>
+  </section>
+
+  <div class="footer">
+    <p>© 2025 Shaik Sattar. All rights reserved.</p>
+  </div>
+
+  <script>
+    function toggleSection(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>
